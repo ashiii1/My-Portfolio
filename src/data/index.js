@@ -172,41 +172,42 @@ export const skills = [
 ];
 
 export const projects = [
-    // {
-    //     id: 14,
-    //     title: "Responsive Landing Page Templates",
-    //     date: "Jul 2023 - Nov 2023",
-    //     description: "Fully responsive and SEO-optimized landing page templates with Tailwind CSS for rapid development",
-    //     descriptionDetails: [
-    //         "Responsive design ensuring optimal display across all devices",
-    //         "Technical SEO optimization using correct tags like h1, h2, and sections",
-    //         "Tailwind CSS built-in with `tw-` prefixed classes for quick and organized styling",
-    //         "Quick customization by simply updating the texts for rapid deployment",
-    //         "Frontend framework independent: Includes essential HTML and CSS, easily extendable with frameworks like React or Vue",
-    //         "Ideal for developers with tight deadlines, freelancers, SaaS developers, and app developers needing quick landing pages",
-    //         "Perfect for beginners learning HTML, CSS, and JavaScript, and for those seeking design inspiration"
-    //     ],
-    //     img: "./img/landing-page-template.png",
-    //     skills: [
-    //         "HTML5",
-    //         "Tailwind CSS",
-    //         "Responsive Design",
-    //         "SEO Optimization",
-    //         "JavaScript",
-    //         "Frontend Framework Compatibility"
-    //     ],
-    //     category: "open source",
-    //     github: "https://github.com/ashiii1/EduOcean",
-    //     website: "https://edu-ocean-j2qa.vercel.app/",
-    //     members: [
-    //         {
-    //             name: "Sk Ashi",
-    //             img: "./img/ashi.jpg",
-    //             github: "https://github.com/ashiii1",
-    //             linkedin: "https://www.linkedin.com/in/aashi526/",
-    //         },
-    //     ],
-    // },
+    
+    {
+        id: 14,
+        title: "Responsive Landing Page Templates",
+        date: "Jul 2023 - Nov 2023",
+        description: "Fully responsive and SEO-optimized landing page templates with Tailwind CSS for rapid development",
+        descriptionDetails: [
+            "Responsive design ensuring optimal display across all devices",
+            "Technical SEO optimization using correct tags like h1, h2, and sections",
+            "Tailwind CSS built-in with `tw-` prefixed classes for quick and organized styling",
+            "Quick customization by simply updating the texts for rapid deployment",
+            "Frontend framework independent: Includes essential HTML and CSS, easily extendable with frameworks like React or Vue",
+            "Ideal for developers with tight deadlines, freelancers, SaaS developers, and app developers needing quick landing pages",
+            "Perfect for beginners learning HTML, CSS, and JavaScript, and for those seeking design inspiration"
+        ],
+        img: "./img/wow.png",
+        skills: [
+            "HTML5",
+            "Tailwind CSS",
+            "Responsive Design",
+            "SEO Optimization",
+            "JavaScript",
+            
+        ],
+        category: "open source",
+        github: "https://github.com/ashiii1/Download-Templates",
+        website: "https://master--landingtemplates.netlify.app/",
+        members: [
+            {
+                name: "Sk Ashi",
+                img: "./img/ashi.jpg",
+                github: "https://github.com/ashiii1",
+                linkedin: "https://www.linkedin.com/in/aashi526/",
+            },
+        ],
+    },
     {
         id: 0,
   title: "LMS-EduPlatform",
@@ -328,6 +329,8 @@ export const projects = [
             },
         ],
     },
+
+   
 
     {
         id: 3,
