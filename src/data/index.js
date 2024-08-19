@@ -9,7 +9,7 @@ export const personal_info = {
 
     ],
     github: "https://github.com/ashiii1",
-    cv: "https://drive.google",
+    cv: "https://drive.google.com/file/d/1T-YzDPp93tntwC7Q7rZT22InHOb6d5fH/view",
     linkedin: "https://www.linkedin.com/in/aashi526/",
     twitter:"https://x.com/_Aashii_1"
 };
