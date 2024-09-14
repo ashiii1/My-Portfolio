@@ -339,7 +339,7 @@ descriptionDetails: [
           "Customizable trip itineraries let users plan their days effectively, with options to save and share their plans with fellow travelers."
         
     ],
-    img: "https://raw.githubusercontent.com/ashiii1/Easy-Tripp/main/src/Ss-expl/Screenshot%20(11).png",
+    img: "./img/easytrip.png",
     skills: [
         "React JS",
         "React Router",
