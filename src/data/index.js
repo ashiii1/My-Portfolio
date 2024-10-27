@@ -9,7 +9,7 @@ export const personal_info = {
 
     ],
     github: "https://github.com/ashiii1",
-    cv: "https://drive.google.com/file/d/1L1T0ukqpfsyAN1zVK9Po9iItYUDAX3J2/view?usp=drivesdk",
+    cv: "https://drive.google.com/file/d/1fR3JI9UFW-4k9hkUxQGGZCaE8JS2JpEI/view?usp=drivesdk",
     linkedin: "https://www.linkedin.com/in",
     twitter:"https://x.com/_Aashii_1"
 };
@@ -175,9 +175,9 @@ export const projects = [
      
     {
         id: 15,
-        title: "SmartGenAI: AI-Powered Content Generation Platform",
+        title: "SmartGenAI: Content Generation Platform",
 date: "Jul 2024 - sep 2024",
-description: "SmartGenAI is a powerful SaaS application designed to help users generate high-quality content across various platforms. Leveraging state-of-the-art AI, it simplifies and accelerates content creation for blogs, YouTube, and more.",
+description: "SmartGenAI is a SaaS application designed to help users generate high-quality content across various platforms. It simplifies and accelerates content creation for blogs, YouTube, and more.",
 descriptionDetails: [
     "Blog Title Generator: Create captivating and SEO-friendly blog titles.",
     "Blog Content Generator: Automatically generate entire blog posts tailored to your topic.",
@@ -236,7 +236,7 @@ descriptionDetails: [
             "Vercel",
             
         ],
-        category: "open source",
+        category: "web development",
         github: "https://github.com/ashiii1/ZenXForm-Nextjs-SaaS",
         website: "https://zen-x-form.vercel.app/",
         members: [
@@ -272,7 +272,7 @@ descriptionDetails: [
             "Vercel",
             
         ],
-        category: "open source",
+        category: "web development",
         github: "https://github.com/ashiii1/PromptAi-NextJs",
         website: "https://prompt-ai-henna.vercel.app/",
         members: [
@@ -284,6 +284,9 @@ descriptionDetails: [
             },
         ],
     },
+
+
+
     
     {
         id: 14,
@@ -308,7 +311,7 @@ descriptionDetails: [
             "JavaScript",
             
         ],
-        category: "open source",
+        category: "web development",
         github: "https://github.com/ashiii1/Download-Templates",
         website: "https://master--landingtemplates.netlify.app/",
         members: [
@@ -442,47 +445,6 @@ descriptionDetails: [
         ],
     },
 
-   
-
-   
-
-    {
-        id: 3,
-        title: "Live Streaming WebRTC Application",
-        date: "July 2024",
-        description: "Open-Source Real-Time Streaming Platform",
-        descriptionDetails: [
-            "Developed an open-source WebRTC application for real-time video and audio streaming.",
-            "Features include messaging, chat captions, emoji reactions, hand-raising, and file sharing.",
-            "Provides tools for room management and theme customization.",
-            "Designed for collaborative online sessions and virtual events.",
-            "Simplified for easy integration into existing projects."
-        ],
-        img:"./img/live.png",
-        skills: [
-            "WebRTC",
-        "Real-Time Communication",
-        "JavaScript",
-        "Node.js",
-        "Express.js",
-        "Socket.io",
-        "Git",
-        "Docker",
-        "Kubernetes"
-        ],
-        category: "open source",
-        github: "https://github.com/ashiii1/live-streaming",
-        website: "https://live-streaming-2.onrender.com/",
-        members: [
-            {
-                name: "SK Ashi",
-                img: "./img/ashi.jpg",
-                github: "https://github.com/ashiii1",
-                linkedin: "https://www.linkedin.com/in/a/",
-            },
-           
-        ],
-    },
 
     {
         id: 4,
@@ -772,6 +734,272 @@ id: 5,
             },
         ],
     },
+
+
+
+
+
+
+
+
+
+    {
+        
+        id: 18,
+        title: "Optimized chatbot input",
+        date: "Sep 2024 - Sep 2024",
+        description: "– Optimized Chatbot Input - React.js, Javascript, Html, JSON Implemented a question selection feature in a chatbot application,enhancing user experience by allowing direct question input .",
+        descriptionDetails: [
+          "EasyExplore is a user-friendly travel planning application designed to help users discover nearby attractions, hotels, restaurants, and more based on their trip location.",
+          "The application provides a seamless experience for planning and exploring travel destinations, making trip management easy and efficient.",
+          "Users can explore various points of interest tailored to their preferences, such as tourist spots, dining options, and accommodations, all in one place.",
+          "Interactive maps allow users to visually explore areas of interest, with intuitive navigation to guide them from one location to another.",
+          "The platform also offers comprehensive search and filter options for refining travel choices based on factors like budget, distance, and type of attraction.",
+          "Integrated booking features enable users to make hotel and restaurant reservations directly within the app, streamlining the process and saving time.",
+          "EasyExplore’s responsive design ensures that the experience is optimized across all devices, whether accessed via mobile, tablet, or desktop.",
+          "Real-time reviews, ratings, and recommendations give users insights into the best places to visit, enhancing the decision-making process.",
+          "Customizable trip itineraries let users plan their days effectively, with options to save and share their plans with fellow travelers."
+        
+    ],
+    img: "./img/two.png",
+    skills: [
+        "React JS",
+        "React Router",
+        "Tailwind css",
+        "Travel Advisor Api",
+        "Google Map Api",
+        "JavaScript"
+    ],
+    category: "open source",
+    github: "https://github.com/PB2204/Sunday/pull/15",
+    website: "https://github.com/PB2204/Sunday/pull/15",
+    members: [
+        {
+            name: "SK Ashi",
+            img: "./img/ashi.jpg",
+            github: "https://github.com/ashiii1",
+            linkedin: "https://www.linkedin.com/in/a/",
+        },
+    ],
+},
+
+{
+        
+    id: 19,
+    title: "Dynamic Category Selection",
+    date: "Jun 2024 - Jun 2024",
+    description: "Category Selector - React.js, Javascript, API :- Dynamic bookcategory selection feature that enhances user experience by allowing users to easily browse and access relevant book through API",
+    descriptionDetails: [
+      "EasyExplore is a user-friendly travel planning application designed to help users discover nearby attractions, hotels, restaurants, and more based on their trip location.",
+      "The application provides a seamless experience for planning and exploring travel destinations, making trip management easy and efficient.",
+      "Users can explore various points of interest tailored to their preferences, such as tourist spots, dining options, and accommodations, all in one place.",
+      "Interactive maps allow users to visually explore areas of interest, with intuitive navigation to guide them from one location to another.",
+      "The platform also offers comprehensive search and filter options for refining travel choices based on factors like budget, distance, and type of attraction.",
+      "Integrated booking features enable users to make hotel and restaurant reservations directly within the app, streamlining the process and saving time.",
+      "EasyExplore’s responsive design ensures that the experience is optimized across all devices, whether accessed via mobile, tablet, or desktop.",
+      "Real-time reviews, ratings, and recommendations give users insights into the best places to visit, enhancing the decision-making process.",
+      "Customizable trip itineraries let users plan their days effectively, with options to save and share their plans with fellow travelers."
+    
+],
+img: "./img/three.png",
+skills: [
+    "React JS",
+    "React Router",
+    "Tailwind css",
+    "Travel Advisor Api",
+    "Google Map Api",
+    "JavaScript"
+],
+category: "open source",
+github: "https://github.com/MLSA-UET-Lahore-NC/BookWise-Frontend/pull/3",
+website: "https://github.com/MLSA-UET-Lahore-NC/BookWise-Frontend/pull/3",
+members: [
+    {
+        name: "SK Ashi",
+        img: "./img/ashi.jpg",
+        github: "https://github.com/ashiii1",
+        linkedin: "https://www.linkedin.com/in/a/",
+    },
+],
+},
+
+{
+        
+    id: 20,
+    title: "Enhanced react-otp-input Library",
+    date: "Jun 2024 - Jun 2024",
+    description: "– Enhanced Library - NEXT.js, React..js, Javascript, Library : - Contributed to the react-otp-input library by adding features for customizable colors, company name, and logo upload, enhancing its usability for developers in building branded applications.",
+    descriptionDetails: [
+      "EasyExplore is a user-friendly travel planning application designed to help users discover nearby attractions, hotels, restaurants, and more based on their trip location.",
+      "The application provides a seamless experience for planning and exploring travel destinations, making trip management easy and efficient.",
+      "Users can explore various points of interest tailored to their preferences, such as tourist spots, dining options, and accommodations, all in one place.",
+      "Interactive maps allow users to visually explore areas of interest, with intuitive navigation to guide them from one location to another.",
+      "The platform also offers comprehensive search and filter options for refining travel choices based on factors like budget, distance, and type of attraction.",
+      "Integrated booking features enable users to make hotel and restaurant reservations directly within the app, streamlining the process and saving time.",
+      "EasyExplore’s responsive design ensures that the experience is optimized across all devices, whether accessed via mobile, tablet, or desktop.",
+      "Real-time reviews, ratings, and recommendations give users insights into the best places to visit, enhancing the decision-making process.",
+      "Customizable trip itineraries let users plan their days effectively, with options to save and share their plans with fellow travelers."
+    
+],
+img: "./img/five.png",
+skills: [
+    "React JS",
+    "React Router",
+    "Tailwind css",
+    "Travel Advisor Api",
+    "Google Map Api",
+    "JavaScript"
+],
+category: "open source",
+github: "https://github.com/devfolioco/react-otp-input/pull/457",
+website: "https://github.com/devfolioco/react-otp-input/pull/457",
+members: [
+    {
+        name: "SK Ashi",
+        img: "./img/ashi.jpg",
+        github: "https://github.com/ashiii1",
+        linkedin: "https://www.linkedin.com/in/a/",
+    },
+],
+},
+
+
+{
+        
+    id: 21,
+    title: "Figma Design to Code",
+    date: "Aug 2024 - Aug 2024",
+    description: "– Figma to Code - HTML, CSS, Javascript :- Contributed to an open-source project by transforming a Figma design into a functional web interface, providing developers with a useful blueprint to integrate into their code.",
+    descriptionDetails: [
+      "EasyExplore is a user-friendly travel planning application designed to help users discover nearby attractions, hotels, restaurants, and more based on their trip location.",
+      "The application provides a seamless experience for planning and exploring travel destinations, making trip management easy and efficient.",
+      "Users can explore various points of interest tailored to their preferences, such as tourist spots, dining options, and accommodations, all in one place.",
+      "Interactive maps allow users to visually explore areas of interest, with intuitive navigation to guide them from one location to another.",
+      "The platform also offers comprehensive search and filter options for refining travel choices based on factors like budget, distance, and type of attraction.",
+      "Integrated booking features enable users to make hotel and restaurant reservations directly within the app, streamlining the process and saving time.",
+      "EasyExplore’s responsive design ensures that the experience is optimized across all devices, whether accessed via mobile, tablet, or desktop.",
+      "Real-time reviews, ratings, and recommendations give users insights into the best places to visit, enhancing the decision-making process.",
+      "Customizable trip itineraries let users plan their days effectively, with options to save and share their plans with fellow travelers."
+    
+],
+img: "./img/four.png",
+skills: [
+    "React JS",
+    "React Router",
+    "Tailwind css",
+    "Travel Advisor Api",
+    "Google Map Api",
+    "JavaScript"
+],
+category: "open source",
+github: "https://github.com/SooryaCodes/HACKTOBERFEST-2024-CHALLENGE/pull/1",
+website: "https://github.com/SooryaCodes/HACKTOBERFEST-2024-CHALLENGE/pull/1",
+members: [
+    {
+        name: "SK Ashi",
+        img: "./img/ashi.jpg",
+        github: "https://github.com/ashiii1",
+        linkedin: "https://www.linkedin.com/in/a/",
+    },
+],
+},
+
+
+{
+    id: 3,
+    title: "Live Streaming WebRTC Application",
+    date: "July 2024",
+    description: "Open-Source Real-Time Streaming Platform",
+    descriptionDetails: [
+        "Developed an open-source WebRTC application for real-time video and audio streaming.",
+        "Features include messaging, chat captions, emoji reactions, hand-raising, and file sharing.",
+        "Provides tools for room management and theme customization.",
+        "Designed for collaborative online sessions and virtual events.",
+        "Simplified for easy integration into existing projects."
+    ],
+    img:"./img/live.png",
+    skills: [
+        "WebRTC",
+    "Real-Time Communication",
+    "JavaScript",
+    "Node.js",
+    "Express.js",
+    "Socket.io",
+    "Git",
+    "Docker",
+    "Kubernetes"
+    ],
+    category: "open source",
+    github: "https://github.com/ashiii1/live-streaming",
+    website: "https://live-streaming-2.onrender.com/",
+    members: [
+        {
+            name: "SK Ashi",
+            img: "./img/ashi.jpg",
+            github: "https://github.com/ashiii1",
+            linkedin: "https://www.linkedin.com/in/a/",
+        },
+       
+    ],
+},
+
+
+
+{
+        
+    id: 22,
+    title: "Diet Plan UI Component",
+    date: "Jul 2024 - Jul 2024",
+    description: "– Diet Plans UI Component - React.js, Javascript, JSX, JSON :-Developed a dynamic Diet Plans component featuring interactive card views, detailed descriptions, and seamless navigation for an enhanced user experience",
+    descriptionDetails: [
+      "EasyExplore is a user-friendly travel planning application designed to help users discover nearby attractions, hotels, restaurants, and more based on their trip location.",
+      "The application provides a seamless experience for planning and exploring travel destinations, making trip management easy and efficient.",
+      "Users can explore various points of interest tailored to their preferences, such as tourist spots, dining options, and accommodations, all in one place.",
+      "Interactive maps allow users to visually explore areas of interest, with intuitive navigation to guide them from one location to another.",
+      "The platform also offers comprehensive search and filter options for refining travel choices based on factors like budget, distance, and type of attraction.",
+      "Integrated booking features enable users to make hotel and restaurant reservations directly within the app, streamlining the process and saving time.",
+      "EasyExplore’s responsive design ensures that the experience is optimized across all devices, whether accessed via mobile, tablet, or desktop.",
+      "Real-time reviews, ratings, and recommendations give users insights into the best places to visit, enhancing the decision-making process.",
+      "Customizable trip itineraries let users plan their days effectively, with options to save and share their plans with fellow travelers."
+    
+],
+img: "./img/one.png",
+skills: [
+    "React JS",
+    "React Router",
+    "Tailwind css",
+    "Travel Advisor Api",
+    "Google Map Api",
+    "JavaScript"
+],
+category: "open source",
+github: "https://github.com/Aneeshaik/gym-app/pull/52",
+website: "https://github.com/Aneeshaik/gym-app/pull/52",
+members: [
+    {
+        name: "SK Ashi",
+        img: "./img/ashi.jpg",
+        github: "https://github.com/ashiii1",
+        linkedin: "https://www.linkedin.com/in/a/",
+    },
+],
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     {
         id: 12,

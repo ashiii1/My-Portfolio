@@ -17,8 +17,7 @@ const AboutMe = () => {
                     <AboutMeLeftContainer id="Left">
                         <Title>ABOUT ME</Title>
                         <Description>
-                            I am a Full-Stack Developer with expertise in frontend technology. My experience includes creating and managing diverse projects, integrating SECURE PAYMENT GATEWAYS, using DevOps tools, and contributing to open-source projects. I have also designed landing pages and documentation for SaaS startups.
-                        </Description>
+                        Experienced Full Stack Developer with exceptional problem-solving skills, proficient in building and deploying complete web applications using Next.js and React js. Skilled in Java, JavaScript, and AWS cloud services, with expertise in Dockerization and a proven record of impactful open-source contributions to various organizations including  GSSOC, Hacktoberfest .                        </Description>
                         <LineBreak />
                         <CVButton href={personal_info.cv} target='_blank' rel='noopener noreferrer'>View CV</CVButton>
 
