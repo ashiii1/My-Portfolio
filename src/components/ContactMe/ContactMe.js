@@ -1,18 +1,16 @@
 import { Container, Wrapper, Title, Description, ContactForm, ContactTitle, ContactInput, ContactInputMessage, ContactSendButton } from './ContactMeStyledComponent';
-import React, { useRef, useState } from 'react';
+import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import { Snackbar } from '@mui/material';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const ContactMe = () => {
-
-    //hooks
-    const [isOpen, setIsOpen] = useState(false);
 
     // Email JS API
     const refForm = useRef();
 
     const sendEmail = (event) => {
-        event.preventDefault()
+        event.preventDefault();
 
         emailjs
             .sendForm(
@@ -21,28 +19,18 @@ const ContactMe = () => {
                 refForm.current,
                 process.env.REACT_APP_publicKey
             )
-            // .then(
-            //     () => {
-            //         alert('Message successfully sent!')
-            //         window.location.reload(false)
-            //     },
-            //     () => {
-            //         alert('Failed to send the message, please try again')
-            //     }
-            // )
-
             .then(
                 (result) => {
-                    setIsOpen(true);
+                    // Show success toast notification
+                    toast.success("Message successfully sent!");
                     refForm.current.reset();
                 },
                 (error) => {
-                    console.log(error.text);
-                    alert('Failed to send the message, please try again')
+                    console.error(error.text);
+                    toast.error("Failed to send the message, please try again");
                 }
             );
     }
-
 
     return (
         <Container id="ContactMe">
@@ -74,15 +62,9 @@ const ContactMe = () => {
                     />
                     <ContactSendButton type="submit" value="Send" />
                 </ContactForm>
-
-                <Snackbar
-                    open={isOpen}
-                    autoHideDuration={6000}
-                    onClose={() => setIsOpen(false)}
-                    message="Message successfully sent!"
-                    severity="success"
-                />
-
+                
+                {/* Toast Container for notifications */}
+                <ToastContainer position="top-right" autoClose={6000} hideProgressBar={false} closeOnClick draggable pauseOnHover />
             </Wrapper>
         </Container>
     );
